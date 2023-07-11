@@ -15,9 +15,9 @@ const Navbar = () => {
                     <Menu.Item icon={<FundOutlined style={{fontSize:"28px"}} />}>
                         <Link to='/cryptocurrencies'> Cryptocurrencies </Link>
                     </Menu.Item>
-                    {/* <Menu.Item icon={<MoneyCollectOutlined style={{fontSize:"28px"}} />}>
+                    {<Menu.Item icon={<MoneyCollectOutlined style={{fontSize:"28px"}} />}>
                         <Link to='/exchanges'>Exchanges</Link>
-                    </Menu.Item>  */}
+                    </Menu.Item>}
                     <Menu.Item icon={<BulbOutlined style={{fontSize:"28px"}} />}>
                         <Link to='/news'>News</Link>
                     </Menu.Item>
